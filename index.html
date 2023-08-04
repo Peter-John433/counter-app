@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <!-- container-fluid -->
+  <div class="container-fluid-sm">
+    <!-- heading -->
+    <div class="text-all text text-white text-center p-3 fw-4 fs-3  bg-dark text-uppercase rounded">
+      <h3>passenger counter app project</h3>
+      <h3 class="text-lowercase">Build with <span class="text-danger fw-bold text-uppercase">html</span> <span class="text-primary fw-bold text-uppercase">css</span> and <span class="text-warning fw-bold text-uppercase">javascript</span></h3>
+    </div>
+    <!-- container-sm -->
+    <div class="container-sm">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-sm-12 col-lg-5 mt-5  text-center ">
+          <p id="passenger">passenger enter:</p>
+          <p id="count-el">0</p>
+          <button class="btn btn-outline-success  btn-lg text-uppercase" onclick="increement()">increement</button> <br>
+          <button class="btn btn-outline-danger btn-lg my-3 text-uppercase"  onclick="save()">save</button>
+          <p id="save-el">previous entered:</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- javascript -->
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
